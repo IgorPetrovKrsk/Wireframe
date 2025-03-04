@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 0px;
+}
+h1,h3{
+    margin: 0px;
+    padding: 2px;
+}
+
+#cinemaLinkLogo{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+#inSearch{
+    width: 50%;
+    margin: 30px 0px;
+}
+#btnSignIn{
+    margin: 30px 5px;
+}
+#textCinemaLink{
+    margin: 10px 0px;
+}
