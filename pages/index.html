@@ -1,20 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CinemaLink</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CinemaLink</title>
+   <link rel="stylesheet" href="../styles/styles.css">
 </head>
+
 <body>
-    <header>
-        <img id="cinemaLinkLogo" src="/images/Cinemalink.webp" alt="Cinemalink logo">
-        <div id="textCinemaLink">
+   <header>
+      <img id="cinemaLinkLogo" src="/images/Cinemalink_cropper.webp" alt="Cinemalink logo">
+      <div style="width: 100%;">
+         <div id="cinemaLinkTextSearch">
             <h1>CinemaLink</h1>
-            <h3>Find Movies. Watch Anywhere. Enjoy Anytime!</h3>
-        </div>
-        <input id="inSearch" type="text" placeholder="Search for movies">
-        <button id="btnSignIn">Sing in</button>
-    </header>
+            <div id="searchSignIn">
+               <input id="inSearch" type="search" placeholder="Search for movies">
+               <button id="btnSignIn">Sing in</button>
+            </div>
+         </div>
+         <h3 id="textSlogan">Find Movies. Watch Anywhere. Enjoy Anytime!</h3>
+      </div>
+
+   </header>
+   <br>
+   <div id="navigationCoreContent">
+      <nav id="navigation">
+         <ul id="navigationul">
+            <a href="">
+               <li>Home</li>
+            </a>
+            <a href="">
+               <li>Movies</li>
+            </a>
+            <a href="">
+               <li>Favorites</li>
+            </a>
+            <a href="">
+               <li>TV Series</li>
+            </a>
+            <a href="">
+               <li>Sports</li>
+            </a>
+            <a href="">
+               <li>News</li>
+            </a>
+         </ul>
+      </nav>
+
+      <div id="coreContent">
+         <section id="videoBanner">
+            <h1>Video banner on the loop</h1>
+            <img id="cinemaLinkVideo" src="../images/Cinema.gif" alt="CinemaLink commertial">
+         </section>
+
+         <section id="newRelises">
+               <ul class="movieNewsList">
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+            </ul>
+         </section>
+
+         <section id="news">
+            <ul class="movieNewsList">
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+               <li class="movieSection">
+                  <img class="moviePoster" src="../images/movie-poster.jpg" alt="Movie poster">
+                  <h3>Movie title</h3>
+                  <p>Movie description</p>
+               </li>
+            </ul>
+         </section>
+      </div>
+   </div>
+   <footer>
+      <ul id="footerUl">
+         <a href=""><li>Netflix</li></a>
+         <a href=""><li>Paramount</li></a>
+         <a href=""><li>Disney</li></a>
+         <a href=""><li>Theater ticket seller</li></a>
+         <a href="https://www.linkedin.com/in/igorpetrovkrsk/" target="_blank"><li>My LinkedIn</li></a>
+
+      </ul>
+
+   </footer>
+
+
 </body>
+
 </html>

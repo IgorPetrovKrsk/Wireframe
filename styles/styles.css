@@ -1,27 +1,142 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
-    padding: 0px;
-}
-h1,h3{
-    margin: 0px;
-    padding: 2px;
+header {
+  display: flex;
+  background-color: gray;
+  padding: 0px;
 }
 
-#cinemaLinkLogo{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
+#cinemaLinkTextSearch {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: gray;
+  padding: 0px;
+  margin-top: 15px;
 }
 
-#inSearch{
-    width: 50%;
-    margin: 30px 0px;
+#searchSignIn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
-#btnSignIn{
-    margin: 30px 5px;
+
+h1,
+h3 {
+  margin: 0px;
+  padding: 2px;
 }
-#textCinemaLink{
-    margin: 10px 0px;
+
+#cinemaLinkLogo {
+  height: 100px;
+  padding: 5px;
 }
+
+#inSearch {
+  width: 70%;
+  height: 2rem;
+  margin: 4px;
+}
+
+#btnSignIn {
+  margin: 4px;
+  height: 2rem;
+  width: 10em;
+}
+
+#textCinemaLink {
+  margin: 10px 0px;
+}
+
+#textSlogan {
+  padding-left: 4px;
+}
+
+#navigation {
+  background-color: gray;
+  width: 200px;
+  height: 800px;
+  padding: 0px;
+}
+
+#navigationul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: lightgray;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+#videoBanner {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-left: 10px;
+  background-color: gray;
+  padding: 0px;
+  justify-content: center;
+}
+
+#navigationCoreContent {
+  display: flex;
+  justify-content: space-around;  
+}
+
+#newRelises {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background-color: gray;
+  margin: 10px 10px;
+}
+
+#news {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background-color: gray;
+  margin: 10px 10px;
+}
+
+.moviePoster {
+  width: 150px;
+}
+
+.movieSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  color: white;
+}
+
+.movieNewsList {
+  display: flex;
+  flex-direction: row;  
+}
+
+#footerUl{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-color: rebeccapurple;  
+}
+
+p {
+  margin: 5px;
+  padding: 0px;
+}
+
